@@ -2,11 +2,11 @@ import React from "react";
 import {text} from '../assets/text'
 function Top() {
     const imgProfile=text[0].imgProfile;
-    const fondo=text[0].fondoPre;
+    const imgFondo=text[0].imgFondo;
     return ( 
         <>
             <div>
-                <img src={fondo} />
+                <img src={imgFondo} />
                 <img src={imgProfile} />
             </div>
         </>
